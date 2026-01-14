@@ -3341,7 +3341,7 @@ netcreate_err:
 	}
 	prGlueInfo->prDevHandler = NULL;
 
-	return prWdev;
+	return NULL;
 }				/* end of wlanNetCreate() */
 
 /*----------------------------------------------------------------------------*/
